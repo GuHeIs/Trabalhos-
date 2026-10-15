@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de músicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="titulo">
+            <h1>Lista de músicas</h1>
+        </header>
+        <br><br>
+        <main>
+            <section>
+            <h2>Escreva:</h2>
+            <label for="Nome">Nome da música:</label>
+            <br>
+            <input type="text" id="Nome" placeholder="Nome da música">
+            <br>
+            <label for="Autor">Autor da música:</label>
+            <br>
+            <input type="text" id="Autor" placeholder="Autor da música">
+            <br>
+            <label for="Ano">Ano de lançamento:</label>
+            <br>
+            <input type="text" id="Ano" placeholder="Ano de lançamento">
+            <br>
+            <label for="Estilo">Estilo musical:</label>
+            <br>
+            <input type="text" id="Estilo" placeholder="Estilo musical">
+            <br>
+            <label for="Gosto">Por que gosta:</label>
+            <br>
+            <textarea name="" id="Gostp" placeholder="Por que gosta?"></textarea>
+            <br>
+            <br>
+            <div class="botoes">
+                <button type="button" id="pre-vi">
+                    <p>Pré-visualização</p>
+                </button>
+                <button type="button" id="add">
+                    <p>Adicionar música</p>
+                </button>
+            <br>
+            </div>
+            </section>
+            <br>
+            <br>
+            <section>
+            <div>
+                <h2>Pré-visualização</h2>
+                <br>
+                <div>
+                    <h3 id="visNome">Nome da música.</h3>
+                    <p id="visAutor">Autor.</p>
+                    <p id="visAno">Ano de lançamento.</p>
+                    <p id="visEstilo">Estilo musical.</p>
+                    <p id="visGosto">Porque gosto da música.</p>
+                </div>
+            </div>
+            </section>
+            <br><br>
+            <section id="listaMusicas">
+                <h2>Lista de músicas</h2>
+            </section>
+        </main>
+        <br><br>
+        <footer>
+            <h2>Feito por Gustavo Henrique Iser</h2>
+        </footer>
+    </div>
+</body>
+</html>

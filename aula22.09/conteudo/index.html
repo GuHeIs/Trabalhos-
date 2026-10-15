@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 22/09</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Aula DOM</h1>
+    <p id="p1"></p>
+    <img src="https://picsum.photos/200" alt="imagem aleatória">
+    <img id=""im2>
+    <p id="p2" class="estilo_p2"></p>
+
+    
+    <script>
+        let paragrafo = document.getElementById("p1");
+        console.log(paragrafo);
+        paragrafo.innerText = "Aula DOM - Alterando texto do paragrafo";
+        let imagem2 = document.getElementById("im2");
+        imagem2.src = "https://picsum.photos/200";
+
+        let paragrafo2 = document.querySelector("#p2");
+        paragrafo2.innerHTML = "<strong>Paragrafo 2</strong> - Alterando o texto do paragrafo 2";
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

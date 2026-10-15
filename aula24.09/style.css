@@ -1,0 +1,30 @@
+.caixa{
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid steelblue 4px,
+}
+h1{
+    text-align: center;
+}
+strong{
+    font-size: larger;
+}
+.recados{
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid steelblue 4px,
+}
+.container{
+    justify-content: space-between;
+    display: flexbox;
+}

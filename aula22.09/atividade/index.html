@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 22/09</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="perfil">
+          
+            <h1 id="nome-perfil">Gustavo</h1>
+            <p id="idade">15 anos</p>
+            <p id="cidade">Santa Cruz do Sul</p>
+            <p id="profissão">Estudante</p>
+
+    
+        </div>
+            <script>
+                let perfil ={
+                    nome: "Gustavo",
+                    idade: 15,
+                    cidade: "Santa Cruz do Sul, RS",
+                    profissão: "Estudante",
+
+                }
+                document.getElementById("nome-perfil").innerText = perfil.nome;
+                document.getElementById("idade").innerText = perfil.idade + " anos";
+                document.getElementById("cidade").innerText = perfil.cidade;  
+                document.getElementById("profissão").innerText = perfil.profissão;
